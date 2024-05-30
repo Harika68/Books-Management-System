@@ -1,0 +1,36 @@
+ <html>
+    <head>
+    </head>
+    <body> 
+ 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" id="fm">
+            <form action="" (ngSubmit)="login()" ngNativeValidate>
+                <h2>Login Here</h2>
+                <div class="form-group">
+                    <label class="form-label">UserName</label>
+                    <input type="text" class=form-control name="name" [(ngModel)]="loginusername" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <input type="password" class=form-control name="name" [(ngModel)]="loginuserpassword" required>
+                </div>
+                <div>
+                     <button class="btn btn-primary btn-lg" type="submit">Login</button>
+                     <button class="btn btn-danger btn-lg" type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+       <div class="col-md-4">
+        <img src="https://us.images.westend61.de/0001251382j/girl-listening-music-through-headphones-and-using-digital-tablet-with-family-in-background-MASF13730.jpg" alt="" height="400" width="450" style="margin-top:-10px;">
+       </div>
+        <!-- <div class="col-md-4" id="new">
+            <app-registration></app-registration>
+        </div>  -->
+        <button id="reg" (click)="load()">Register Account</button>
+    </div>
+</div>
+    </body>
+ </html>

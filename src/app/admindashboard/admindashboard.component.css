@@ -1,0 +1,48 @@
+@media only screen and (min-width:700px){
+    .bg-bhaskar{
+        background-color: rgb(112, 197, 210);
+    }
+    .navbar{
+        width:250px;
+        padding:15px;
+        padding-bottom:400px;
+        position: absolute;
+        left:0px;
+        color: black;
+    }
+    .navbar-nav{
+        margin-top:50px;
+        color: black;
+    }
+    .nav-item{
+        padding-top: 10px;
+        margin-left: 20px;
+        color: black;
+    }
+    .logo{
+        width:120px;
+        border-radius: 60px;
+        margin-top:50px ;
+    }
+    .dash{
+        position: fixed;
+    }
+    .cont{
+        margin-left: 250px;
+    }
+
+}
+    
+
+    
+    
+    @media only screen and (max-width:700px){
+        .bg-bhaskar{
+            background-color: aquamarine;
+        }
+        *{
+            padding:0px;
+            margin: 0%;
+        }
+    }
+        
